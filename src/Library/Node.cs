@@ -25,9 +25,10 @@ namespace Library
             }
         }
 
-        public Node(Persona person)
+        public Node(string nombre, int edad)
         {
-            this.person = person;
+            Persona person = new Persona (nombre, edad);
+            this.person = person; 
         }
 
         public void AddChildren(Node n)
