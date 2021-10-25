@@ -6,14 +6,15 @@ namespace Library
 {
     public class Node
     {
-        private int number;
+        private Persona person;
 
         private List<Node> children = new List<Node>();
 
-        public int Number {
+        public Persona Number
+         {
             get
             {
-                return this.number;
+                return this.person;
             }
         }
 
@@ -24,9 +25,9 @@ namespace Library
             }
         }
 
-        public Node(int number)
+        public Node(Persona person)
         {
-            this.number = number;
+            this.person = person;
         }
 
         public void AddChildren(Node n)

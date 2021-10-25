@@ -7,24 +7,29 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Node n1 = new Node(1);
-            Node n2 = new Node(2);
-            Node n3 = new Node(3);
-            Node n4 = new Node(4);
-            Node n5 = new Node(5);
-            Node n6 = new Node(6);
-            Node n7 = new Node(7);
+            Node Maria = new Node(1);
+            Node Mata = new Node(2);
+            Node Jose = new Node(3);
+            Node Pia = new Node(4);
+            Node Juan = new Node(5);
+            Node Thai = new Node(6);
+            Node Fla = new Node(7);
+            Node 
 
-            n1.AddChildren(n2);
-            n1.AddChildren(n3);
+            Maria.AddChildren(Mata);
+            Maria.AddChildren(Jose);
 
-            n2.AddChildren(n4);
-            n2.AddChildren(n5);
+            Mata.AddChildren(Pia);
+            Mata.AddChildren(Juan);
 
-            n3.AddChildren(n6);
-            n3.AddChildren(n7);
+            Jose.AddChildren(Thai);
+            Jose.AddChildren(Fla);
 
             // visitar el árbol aquí
+            Persona Pilar = new Persona ("Pilar Machado", 20);
+            Persona Sofia = new Persona ("Sofia Casalas", 35);
+            Persona Santiago = new Persona ("Santiago Luque", 20);
+
         }
     }
 }
