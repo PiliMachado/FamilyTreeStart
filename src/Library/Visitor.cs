@@ -9,9 +9,9 @@ public abstract class Visitor
         }
     }
 
-    protected int ContentBuilder { get; } 
+    protected int ContentBuilder { get; set ; } 
 
     public abstract void Visit(Node nodo);
-
+    public abstract void Visit (Persona person);
 
 }

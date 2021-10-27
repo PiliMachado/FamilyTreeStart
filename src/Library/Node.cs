@@ -10,7 +10,7 @@ namespace Library
 
         private List<Node> children = new List<Node>();
 
-        public Persona Number
+        public Persona Persona
          {
             get
             {
